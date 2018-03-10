@@ -11,6 +11,7 @@ details. */
 
 #include <features.h>
 #include <cygwin/socket.h>
+#include <sys/time.h>
 
 #ifdef __cplusplus
 extern "C"
@@ -47,10 +48,6 @@ extern "C"
 
 #ifdef __cplusplus
 };
-#endif
-
-#if __SSP_FORTIFY_LEVEL > 0
-#include <ssp/socket.h>
 #endif
 
 #endif /* _SYS_SOCKET_H */

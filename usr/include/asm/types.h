@@ -9,8 +9,6 @@ details. */
 #ifndef _ASM_TYPES_H
 #define _ASM_TYPES_H
 
-#include <asm/bitsperlong.h>
-
 typedef __signed__ char __s8;
 typedef unsigned char __u8;
 
